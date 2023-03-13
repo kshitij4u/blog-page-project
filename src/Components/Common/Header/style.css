@@ -1,0 +1,38 @@
+.home-container {
+  background-color: #000000;
+}
+
+.home-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 120px 0 120px;
+}
+
+.home-header h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+.homeLink-tag-1 {
+  text-decoration: none;
+  margin-top: 30px;
+  color: #5f9ea0;
+  cursor: pointer;
+}
+.homeLink-tag-2 {
+  text-decoration: none;
+  margin-top: 30px;
+  color: #5f9ea0;
+  cursor: pointer;
+}
+
+@media (max-width=400px) {
+  .home-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 120px 0 120px;
+  }
+}

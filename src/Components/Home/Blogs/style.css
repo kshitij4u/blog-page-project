@@ -1,0 +1,19 @@
+body {
+  background-color: #e1eedd;
+}
+
+.blog-wrap {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 40% 60%;
+  column-gap: 5px;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto 0 auto;
+}
+
+.blog-wrap-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
